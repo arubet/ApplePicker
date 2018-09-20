@@ -23,9 +23,9 @@ GameObject:
   - component: {fileID: 23815702938470168}
   - component: {fileID: 135411452424733228}
   - component: {fileID: 54496538570213624}
-  - component: {fileID: 114954458245652002}
+  - component: {fileID: 114482863557507400}
   m_Layer: 9
-  m_Name: apple
+  m_Name: Apple
   m_TagString: Apple
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,7 +101,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114954458245652002
+--- !u!114 &114482863557507400
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
