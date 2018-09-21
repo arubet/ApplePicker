@@ -38,6 +38,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4933744705672832}
   - component: {fileID: 114237707987459962}
+  - component: {fileID: 54168736560259660}
   m_Layer: 8
   m_Name: Appletree
   m_TagString: Untagged
@@ -188,6 +189,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1664704472847036}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54168736560259660
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1456991986658902}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &114237707987459962
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -199,10 +215,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37679e126980c449b821c5cee0ec73c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  applePrefab: {fileID: 0}
-  speed: 1
+  applePrefab: {fileID: 1953148837796378, guid: 3b006822bcb1f4da89cd64bc49fc9faf,
+    type: 2}
+  speed: 10
   leftAndRightEdge: 10
-  chanceToChangeDirections: 0.1
+  chanceToChangeDirections: 0.02
   secondsBetweenAppleDrops: 1
 --- !u!135 &135300044503668144
 SphereCollider:

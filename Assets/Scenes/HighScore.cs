@@ -8,7 +8,7 @@ public class HighScore : MonoBehaviour {
 	
 	void Awake () {
         if(PlayerPrefs.HasKey("HighScore")){
-            score = PlayerPrefs.GetInt("Highscore");
+            score = PlayerPrefs.GetInt("HighScore");
         }
         PlayerPrefs.SetInt("HighScore", score);
 	}
